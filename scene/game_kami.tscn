@@ -1,0 +1,364 @@
+[gd_scene load_steps=48 format=4 uid="uid://176w0l4wnj0x"]
+
+[ext_resource type="Texture2D" uid="uid://nm17skxi30ol" path="res://assets/character/player/idle/1.png" id="1_62qra"]
+[ext_resource type="Script" uid="uid://d4cnlfo2ldejn" path="res://scene/script/player.gd" id="1_n3dmp"]
+[ext_resource type="Texture2D" uid="uid://dvbdc1qrsw8f7" path="res://assets/character/player/idle/2.png" id="2_n3dmp"]
+[ext_resource type="Texture2D" uid="uid://bf82limthjsnn" path="res://assets/character/player/idle/3.png" id="3_5jhds"]
+[ext_resource type="Texture2D" uid="uid://bxt2m482fck5v" path="res://assets/character/player/idle/4.png" id="4_erqwp"]
+[ext_resource type="Texture2D" uid="uid://7m0vs0op5xu6" path="res://assets/character/player/idle/5.png" id="5_mmyd4"]
+[ext_resource type="Texture2D" uid="uid://cxaswdn7412og" path="res://assets/character/player/idle/6.png" id="6_h7b16"]
+[ext_resource type="Texture2D" uid="uid://cdh6yvnymb43r" path="res://assets/character/player/idle/7.png" id="7_lbh2a"]
+[ext_resource type="Texture2D" uid="uid://dmfm47kac8k5o" path="res://assets/character/player/idle/8.png" id="8_1m25x"]
+[ext_resource type="Texture2D" uid="uid://ny71thdeii7h" path="res://assets/character/player/idle/9.png" id="9_fk5vr"]
+[ext_resource type="Texture2D" uid="uid://dmajf538l1u4t" path="res://assets/character/player/idle/10.png" id="10_00mmo"]
+[ext_resource type="Texture2D" uid="uid://urgy177i1gyy" path="res://assets/character/player/idle/11.png" id="11_wdp6r"]
+[ext_resource type="Texture2D" uid="uid://lqhrvuvxdkhf" path="res://assets/character/player/idle/12.png" id="12_ka78a"]
+[ext_resource type="Texture2D" uid="uid://c1qv2srbnoqcl" path="res://assets/character/player/idle/13.png" id="13_unlbw"]
+[ext_resource type="Texture2D" uid="uid://cfws2fs5n32gh" path="res://assets/character/player/idle/14.png" id="14_ee7ql"]
+[ext_resource type="Texture2D" uid="uid://cfa5t8ymuxdn7" path="res://assets/character/player/idle/15.png" id="15_khn87"]
+[ext_resource type="Texture2D" uid="uid://4aafmn8vmh0o" path="res://assets/character/player/idle/16.png" id="16_jw3jr"]
+[ext_resource type="Texture2D" uid="uid://bvol8ob1e3xhx" path="res://assets/character/player/idle/17.png" id="17_d2g7j"]
+[ext_resource type="Texture2D" uid="uid://upgpppt0rkrx" path="res://assets/character/player/idle/18.png" id="18_p8obr"]
+[ext_resource type="Texture2D" uid="uid://bptaaonhtx778" path="res://assets/character/player/idle/19.png" id="19_l4r4u"]
+[ext_resource type="Texture2D" uid="uid://btp5td21h3sh4" path="res://assets/character/player/idle/20.png" id="20_ftb3a"]
+[ext_resource type="Texture2D" uid="uid://bjwg2cipxggyl" path="res://assets/character/player/idle/21.png" id="21_ehacd"]
+[ext_resource type="Texture2D" uid="uid://bpjc2wqlqvhpe" path="res://assets/character/player/idle/22.png" id="22_etng3"]
+[ext_resource type="Texture2D" uid="uid://bivhf7aiestqx" path="res://assets/character/player/idle/23.png" id="23_pc0y1"]
+[ext_resource type="Texture2D" uid="uid://b5ckscpl3uw75" path="res://assets/character/player/idle/24.png" id="24_5iup0"]
+[ext_resource type="Texture2D" uid="uid://ctgbm833rwl5l" path="res://assets/character/player/idle/25.png" id="25_1dp3k"]
+[ext_resource type="Texture2D" uid="uid://icdyek4lp7g8" path="res://assets/character/player/idle/26.png" id="26_hkxrq"]
+[ext_resource type="Texture2D" uid="uid://cwewd5n6l5v5o" path="res://assets/tileset/world_tileset.png" id="28_5jhds"]
+[ext_resource type="Texture2D" uid="uid://bak2wqyc8d2d5" path="res://assets/character/player/run/1.png" id="29_d2g7j"]
+[ext_resource type="Texture2D" uid="uid://cjst47u32h6og" path="res://assets/character/player/run/2.png" id="30_p8obr"]
+[ext_resource type="Texture2D" uid="uid://0r4k8uynwcnx" path="res://assets/character/player/run/3.png" id="31_l4r4u"]
+[ext_resource type="Texture2D" uid="uid://dymtrl4cxh0yh" path="res://assets/character/player/run/4.png" id="32_ftb3a"]
+[ext_resource type="Texture2D" uid="uid://tsrraj6v7vey" path="res://assets/character/player/run/5.png" id="33_ehacd"]
+[ext_resource type="Texture2D" uid="uid://l1rhg5u6sdo7" path="res://assets/character/player/run/6.png" id="34_etng3"]
+[ext_resource type="Texture2D" uid="uid://0h3u8hwg28nd" path="res://assets/character/player/run/7.png" id="35_pc0y1"]
+[ext_resource type="Texture2D" uid="uid://cus4nhgu0klxs" path="res://assets/character/player/run/8.png" id="36_5iup0"]
+[ext_resource type="Texture2D" uid="uid://c7tkcwau0ngpt" path="res://assets/character/player/run/9.png" id="37_1dp3k"]
+[ext_resource type="Texture2D" uid="uid://b7sp6r1whbobo" path="res://assets/character/player/run/10.png" id="38_hkxrq"]
+[ext_resource type="Texture2D" uid="uid://ck3vygilatsf7" path="res://assets/character/player/run/11.png" id="39_7u388"]
+[ext_resource type="Texture2D" uid="uid://bgmy10ys2ynnc" path="res://assets/character/player/run/12.png" id="40_25414"]
+[ext_resource type="Texture2D" uid="uid://boki6j2nq05nh" path="res://assets/character/player/run/13.png" id="41_raavb"]
+[ext_resource type="Texture2D" uid="uid://bfspevww73bf7" path="res://assets/character/player/run/14.png" id="42_b6cet"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_erqwp"]
+texture = ExtResource("28_5jhds")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+3:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:5/0 = 0
+3:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:5/0 = 0
+4:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+3:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+3:7/0 = 0
+3:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+3:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+4:10/0 = 0
+6:10/0 = 0
+0:11/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+4:11/0 = 0
+5:11/0 = 0
+0:12/0 = 0
+1:12/0 = 0
+2:12/0 = 0
+3:12/0 = 0
+4:12/0 = 0
+0:13/0 = 0
+1:13/0 = 0
+2:13/0 = 0
+3:13/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+0:14/0 = 0
+1:14/0 = 0
+2:14/0 = 0
+3:14/0 = 0
+4:14/0 = 0
+0:15/0 = 0
+1:15/0 = 0
+2:15/0 = 0
+3:15/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_mmyd4"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_erqwp")
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7u388"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_62qra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_n3dmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5jhds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_erqwp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mmyd4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_h7b16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_lbh2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_1m25x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_fk5vr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_00mmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_wdp6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ka78a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_unlbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ee7ql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_khn87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_jw3jr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_d2g7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_p8obr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_l4r4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ftb3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ehacd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_etng3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_pc0y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_5iup0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_1dp3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_hkxrq")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_d2g7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_p8obr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_l4r4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ftb3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ehacd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_etng3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_pc0y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_5iup0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_1dp3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_hkxrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_7u388")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_25414")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_raavb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_b6cet")
+}],
+"loop": true,
+"name": &"run",
+"speed": 20.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5jhds"]
+radius = 11.0
+height = 28.0
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_5jhds"]
+
+[node name="gameKami" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+texture_filter = 1
+position = Vector2(368, 411)
+tile_map_data = PackedByteArray("AAD+/wAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAD9/wAAAAAAAAAAAAD8/wAAAAAAAAAAAAD6/wAAAAAAAAAAAAD7/wAAAAAAAAAAAAABAAEAAAAAAAAAAAAEAAQAAAAAAAAAAAAFAAQAAAAAAAAAAAAGAAQAAAAAAAAAAAAHAAQAAAAAAAAAAAAIAAQAAAAAAAAAAAAJAAUAAAAAAAAAAAAKAAYAAAAAAAAAAAALAAYAAAAAAAAAAAAMAAYAAAAAAAAAAAANAAYAAAAAAAAAAAAOAAYAAAAAAAAAAAAPAAYAAAAAAAAAAAAQAAYAAAAAAAAAAAARAAYAAAAAAAAAAAASAAYAAAAAAAAAAAATAAUAAAAAAAAAAAAUAAQAAAAAAAAAAAAVAAMAAAAAAAAAAAAWAAIAAAAAAAAAAAAXAAIAAAAAAAAAAAAYAAIAAAAAAAAAAAAZAAIAAAAAAAAAAAAaAAEAAAAAAAAAAAAbAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAdAAAAAAAAAAAAAAAeAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAjAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAlAAAAAAAAAAAAAAAmAAAAAAAAAAAAAAD5/wAAAAAAAAAAAAD4/wEAAAAAAAAAAAD1/wEAAAAAAAAAAAD2/wEAAAAAAAAAAAD3/wEAAAAAAAAAAAD0/wEAAAAAAAAAAADy/wEAAAAAAAAAAADz/wEAAAAAAAAAAAAGAAEAAAACAAUAAAAHAAEAAAADAAUAAAAHAAIAAAADAAYAAAAHAAMAAAADAAcAAAAIAAEAAAAEAAUAAAANAAMAAAACAAUAAAAOAAMAAAADAAUAAAAOAAQAAAADAAYAAAAOAAUAAAADAAcAAAAPAAMAAAAEAAUAAADx//3/AAACAAUAAADy//3/AAADAAUAAADy//7/AAADAAYAAADy////AAADAAcAAADy/wAAAAADAAgAAADz//3/AAAEAAUAAAAiAPz/AAACAAUAAAAjAPz/AAADAAUAAAAjAP3/AAADAAYAAAAjAP7/AAADAAcAAAAjAP//AAADAAgAAAAkAPz/AAAEAAUAAAADAAQAAAAAAAAAAAACAAQAAAAAAAAAAAABAAIAAAAAAAAAAAACAAMAAAAAAAAAAAA=")
+tile_set = SubResource("TileSet_mmyd4")
+
+[node name="player" type="CharacterBody2D" parent="."]
+texture_filter = 1
+position = Vector2(-107, 10)
+script = ExtResource("1_n3dmp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="player"]
+position = Vector2(318, 373)
+scale = Vector2(0.44827586, 0.51724136)
+sprite_frames = SubResource("SpriteFrames_7u388")
+animation = &"run"
+autoplay = "idle"
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
+position = Vector2(317, 375)
+scale = Vector2(1, 0.99999994)
+shape = SubResource("CapsuleShape2D_5jhds")
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2(581, 306)
+zoom = Vector2(1.7, 1.7)
+limit_enabled = false
+position_smoothing_enabled = true
+position_smoothing_speed = 8.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(375, 601)
+shape = SubResource("WorldBoundaryShape2D_5jhds")
